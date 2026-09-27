@@ -17,7 +17,8 @@ st.set_page_config(
 # ==============================================================================
 # SECTION 2: DATA LOADING & OPTIMIZATION (CACHING)
 # ==============================================================================
-GITHUB_RAW_BASE = "https://raw.githubusercontent.com/jsyanezastudio/colombia-roads-did/main"
+GITHUB_RAW_BASE = "https://raw.githubusercontent.com/jsyaneza/colombia-road-infrastructure-data-stage-1/main"
+
 GEOJSON_PATH = f"{GITHUB_RAW_BASE}/roads_time_municipalities.json"
 MUNICIPALITIES_PATH = f"{GITHUB_RAW_BASE}/colombia_municipalities_codes.geojson"
 ROAD_TYPE_MUNI_PATH = f"{GITHUB_RAW_BASE}/municipalities_by_road_type.json"
