@@ -1,6 +1,7 @@
 streamlit
-geopandas
 pandas
+geopandas
+shapely
 matplotlib
-requests
 plotly
+pyarrow<25
